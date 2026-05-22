@@ -1,6 +1,6 @@
 /* selector, property, value */
 
-.title {
+/* .title {
     color: brown;
 }
 
@@ -10,4 +10,30 @@
     background-color: brown;
     border-radius: 3px ;
     text-align: center;
+} */
+
+*{
+    margin: 0px ;
+    padding: 0px ;
+}
+
+.container {
+    /* background-image: url("../assets/bg.jpg"); */
+    background-color: #bcbf0d;
+    background-size: cover;
+    height: 100vh;
+    padding: 10px ;
+}
+
+h1{
+    font-family: sans-serif;
+    font-size: 24px ;
+    font-weight: bold ;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none ;
+    color: aqua;
 }
