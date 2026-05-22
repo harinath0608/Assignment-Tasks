@@ -1,0 +1,13 @@
+/* selector, property, value */
+
+.title {
+    color: brown;
+}
+
+#card {
+    width: 100px ;
+    height: 50px ;
+    background-color: brown;
+    border-radius: 3px ;
+    text-align: center;
+}
