@@ -1,4 +1,4 @@
-.container {
+/* .container {
     display: flex;
     text-align: center;
     align-items: center;
@@ -15,7 +15,7 @@
 
 /* Mobile */
 
-@media (max-width:480px) {
+/* @media (max-width:480px) {
 
     .container {
         display: flex ;
@@ -30,11 +30,11 @@
     margin: 5px ;
 }
     
-}
+} */
 
 /* Tablet */
 
-@media (min-width:481px) and (max-width: 768px) {
+/* @media (min-width:481px) and (max-width: 768px) {
 
      .container {
         display: flex ;
@@ -50,4 +50,28 @@
     font-size: 12px ;
 }
     
+} */ 
+
+
+.card {
+    width: 200px ;
+    height: 100px ;
+    background-color: blue;
+    animation: move 10s infinite;
+}
+
+@keyframes move {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(1000px);}
+}
+
+
+.btn {
+    background-color: blueviolet;
+    transition: 1s;
+}
+
+.btn:hover {
+    background-color: brown;
+    transform: scale(1.1);
 }
